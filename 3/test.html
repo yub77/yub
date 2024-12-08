@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Vibes</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-box img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exam Time: how to save the world</h1>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23278679/GettyImages_1238768051.jpg?quality=90&strip=all&crop=4.4076163610719%2C0%2C91.184767277856%2C100&w=2400" alt="Section 1">
+            <button onclick="buttonAction()">end the wars!</button>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.britannica.com/13/250313-050-25084460/Cumberland-Landing-Virginia-Group-of-contrabands-at-Follers-House-May-14-1862.jpg" alt="Section 2">
+            <button onclick="buttonAction1()">end the slavery!</button>
+        </div>
+        <div class="image-box">
+            <img src="oo.jpg" alt="Section 3">
+            <button onclick="buttonAction2()">end lynda's bad mood !</button>
+        </div>
+    </div>
+
+    <script>
+        function buttonAction() {
+            window.location.href = "earthfailed.html"; 
+        }
+    </script>
+    <script>
+        function buttonAction1() {
+            window.location.href = "earthfailed.html"; 
+        }
+    </script>
+    <script>
+        function buttonAction2() {
+            window.location.href = "happyearth.html"; 
+        }
+    </script>
+</body>
+</html>

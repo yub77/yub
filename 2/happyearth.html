@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Page GIF Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzVxZnRmc2pzN2Y5NGVhZHV5bjlicWl0N3BhZGdtOWkzMmpqY3Z1ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1gOa8n8T94q7lDZMHM/giphy.webp') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 3rem;
+            margin-bottom: 400px; /* Adds space below the title */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is the world if Lynda's mood is good :) </h1>
+    <button onclick="buttonAction()">LYNDDAAA IF U GOTTA SUCCEED THIS TEST TO SAVE THE WORLD!!!</button>
+
+    <script>
+        function buttonAction() {
+            window.location.href = "../3/test.html"; // Replace with your desired URL
+        }
+    </script>
+</body>
+</html>

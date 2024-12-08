@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Page GIF Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM4Z3JtMTZ4a296cnJ6NWtwdHRkZGxxZHI2cXBxZW1rb3drNzRuYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/35CdBnDdrWX3KGQdjD/giphy.webp') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            font-size: 3rem;
+            margin-bottom: 400px; /* Adds space below the title */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is the world if Lynda's mood is bad -_-</h1>
+    <button onclick="buttonAction()">Wanna see the world if her mood is good?</button>
+
+    <script>
+        function buttonAction() {
+            window.location.href = "../2/happyearth.html"; // Replace with your desired URL
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        body {
+            background-color: lightpink;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            overflow-y: auto; /* Enable vertical scrolling if needed */
+            padding: 20px;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 0px black;
+            margin-bottom: 20px;
+        }
+        img {
+            width: auto; /* Maintain aspect ratio */
+            max-width: 100%; /* Ensure it doesn't exceed screen width */
+            max-height: 60vh; /* Limit to 60% of viewport height */
+            margin-bottom: 20px;
+        
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome to how the fuck laddo mood is bad -_-????!</h1>
+    <img src="image00001.png" alt="Placeholder Image">
+    <button onclick="buttonAction()">let s change it</button>
+
+    <script>
+        function buttonAction() {
+            window.location.href = "/1/earth.html";
+        }
+    </script>
+</body>
+</html>
